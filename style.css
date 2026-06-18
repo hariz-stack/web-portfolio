@@ -1588,4 +1588,31 @@ textarea.form-input:not(:placeholder-shown) ~ .form-label {
     .specs-grid {
         grid-template-columns: 1fr;
     }
+    
+    /* Clean Console elements for phone UI */
+    .console-card {
+        max-width: 100%;
+    }
+    .console-body {
+        padding: 1rem;
+        font-size: 0.78rem;
+        min-height: 220px;
+        gap: 0.5rem;
+    }
+    .console-grid-data {
+        grid-template-columns: 1fr; /* Stack properties vertically for clean alignment */
+        gap: 0.35rem;
+        font-size: 0.75rem;
+    }
+    .console-footer {
+        justify-content: space-between;
+        padding: 0.5rem 0.75rem;
+        gap: 0.35rem;
+    }
+    .console-btn {
+        flex-grow: 1;
+        text-align: center;
+        padding: 0.35rem 0.25rem;
+        font-size: 0.7rem;
+    }
 }
